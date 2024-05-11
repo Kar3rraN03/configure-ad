@@ -78,9 +78,8 @@ Finish.
 - 
 
 <h2>Deployment and Configuration Steps</h2>
-
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MfKwcpK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To set up resources in Azure, start by creating the Domain Controller VM (Windows Server 2022) named “DC-1” within a specified Resource Group and Virtual Network (Vnet).
@@ -88,7 +87,7 @@ To set up resources in Azure, start by creating the Domain Controller VM (Window
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Y1xnkDw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  Make sure to set the Domain Controller’s NIC Private IP address to be static.
@@ -105,7 +104,7 @@ Next, create the Client VM (Windows 10) named “Client-1” in the same Resourc
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/y0Vvalh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Once the VMs are set up, ensure connectivity between the Client and Domain Controller. Log in to Client-1 using Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> to check connectivity.
@@ -114,7 +113,8 @@ Once the VMs are set up, ensure connectivity between the Client and Domain Contr
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eShF2RF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/YJtThwd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  On DC-1, enable ICMPv4 in the local Windows Firewall to allow ping responses. Verify the successful ping from Client-1 to DC-1 to confirm connectivity.
@@ -123,7 +123,8 @@ Once the VMs are set up, ensure connectivity between the Client and Domain Contr
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LhUJiQA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/bmF1F2Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Proceed to install Active Directory on DC-1. Install Active Directory Domain Services and promote DC-1 as a domain controller, setting up a new forest such as “mydomain.com” during the promotion process.
