@@ -133,7 +133,7 @@ Proceed to install Active Directory on DC-1. Install Active Directory Domain Ser
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LJqtIps.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After installation, restart DC-1 and log back in as user “mydomain.com\labuser” to complete the setup.
@@ -142,10 +142,11 @@ After installation, restart DC-1 and log back in as user “mydomain.com\labuser
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5sXr5OW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/nXqvE4x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In Active Directory Users and Computers (ADUC), create Organizational Units (OUs) for organizing users.
+In Active Directory Users and Computers (ADUC), create Organizational Units (OUs) for organizing users (employees & admins).
 </p>
 <br />
 
