@@ -95,7 +95,7 @@ To set up resources in Azure, start by creating the Domain Controller VM (Window
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TDK8dyV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next, create the Client VM (Windows 10) named “Client-1” in the same Resource Group and Vnet. Verify that both VMs are in the same Vnet using Network Watcher or similar tools.
