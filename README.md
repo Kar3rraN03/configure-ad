@@ -152,7 +152,8 @@ In Active Directory Users and Computers (ADUC), create Organizational Units (OUs
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yhi1i6W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/yhi1i6W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Create a new employee account named “Jane Doe” with the username “jane_admin” and add jane_admin to the “Domain Admins” Security Group for administrative privileges. Log in as “mydomain.com\jane_admin” for administrative tasks from now on.
