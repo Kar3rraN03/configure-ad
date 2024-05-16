@@ -152,7 +152,7 @@ In Active Directory Users and Computers (ADUC), create Organizational Units (OUs
 
 
 <p>
-<img src="https://i.imgur.com/yhi1i6W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tdR7rkn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <img src="https://i.imgur.com/yhi1i6W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -162,7 +162,7 @@ Create a new employee account named “Jane Doe” with the username “jane_adm
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rntC4HC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next, join Client-1 to the domain “mydomain.com.” Set Client-1’s DNS settings to the DC’s Private IP address in the Azure Portal, then restart Client-1 from the portal.
