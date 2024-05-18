@@ -171,7 +171,7 @@ Next, join Client-1 to the domain “mydomain.com.” Set Client-1’s DNS setti
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VzDe7cw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  Log in to Client-1 as the original local admin (labuser) and join it to the domain. Verify Client-1’s presence in Active Directory Users and Computers (ADUC) on the Domain Controller.
@@ -189,7 +189,8 @@ To enable remote desktop access for non-administrative users on Client-1, log in
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vQzqfkB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/B9t9mG4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Finally, create additional users in Active Directory using PowerShell or similar tools. Observe the accounts in the appropriate OU in ADUC.
@@ -197,7 +198,7 @@ Finally, create additional users in Active Directory using PowerShell or similar
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Q3h04yV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Test the logins by attempting to log into Client-1 with one of the newly created accounts. This ensures that user accounts are properly set up and accessible within the domain environment.
