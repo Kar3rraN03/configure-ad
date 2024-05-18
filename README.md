@@ -180,7 +180,7 @@ Next, join Client-1 to the domain “mydomain.com.” Set Client-1’s DNS setti
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KjQRMFw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To enable remote desktop access for non-administrative users on Client-1, log in as jane_admin and allow “domain users” access to remote desktop in system properties. This allows normal users to log into Client-1 remotely.
